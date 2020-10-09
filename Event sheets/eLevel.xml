@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>eLevel</name>
+    <events>
+        <variable constant="0" name="Level" sid="7385180574423397" static="0" type="number">1</variable>
+        <event-block sid="4528398777616071">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="6441848911649084" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="6276291271823093">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="2778824196307148" type="Button_">
+                            <param id="0" name="Instance variable">lev</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">Level</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="719986415670985" type="Button_">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="4589149461479519" type="Button_">
+                            <param id="0" name="Object">SpriteFont6</param>
+                            <param id="1" name="Layer">2</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="0" name="Set text" sid="4031258660011212" type="SpriteFont6">
+                            <param id="0" name="Text">Button_.lev</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6971197969586065">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="3416760822789164" type="Button_">
+                            <param id="0" name="Instance variable">lev</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">Level</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="5241699341422042" type="Button_">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="3211712716234199">
+            <conditions>
+                <condition id="17" name="On tap object" sid="4902954826587297" type="Touch">
+                    <param id="0" name="Object">Button_</param>
+                </condition>
+                <condition id="3" name="Compare frame" sid="4670242131994858" type="Button_">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-25" name="Go to layout (by name)" sid="8442302577076712" type="System">
+                    <param id="0" name="Layout">str(Button_.lev)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5684609636554067">
+            <conditions>
+                <condition id="17" name="On tap object" sid="5226358771248542" type="Touch">
+                    <param id="0" name="Object">Buttons</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="9354755964678604">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="2206898039930919" type="System">
+                            <param id="0" name="Variable">Sound</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;on&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="2284539756357324" type="Audio">
+                            <param id="0" name="Audio file">click</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

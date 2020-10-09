@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="0">1</layout>
+        <layout order="2">2</layout>
+        <layout order="3">3</layout>
+        <layout order="4">4</layout>
+        <layout order="5">5</layout>
+        <layout order="6">6</layout>
+        <layout active="1" order="7">Menu</layout>
+        <layout order="9">SelectLevel</layout>
+        <layout order="11">Loader</layout>
+        <event-sheet order="1">eGame</event-sheet>
+        <event-sheet order="8">eMenu</event-sheet>
+        <event-sheet order="10">eLevel</event-sheet>
+        <event-sheet order="12">Loader Event</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1">
+        <family expanded="1" name="Control" />
+        <family expanded="1" name="Buttons" />
+    </families-expanded>
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="layout-folder/Level/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="1" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/bckground/" />
+        <folder expanded="1" path="animation-folder/bckground2/" />
+        <folder expanded="1" path="animation-folder/cloud/" />
+        <folder expanded="1" path="animation-folder/bckground3/" />
+        <folder expanded="1" path="animation-folder/soldier/" />
+        <folder expanded="1" path="animation-folder/tile/" />
+        <folder expanded="1" path="animation-folder/enem/" />
+        <folder expanded="1" path="animation-folder/spikes/" />
+        <folder expanded="1" path="animation-folder/bird/" />
+        <folder expanded="1" path="animation-folder/ping2/" />
+        <folder expanded="1" path="animation-folder/birdbullet/" />
+        <folder expanded="1" path="animation-folder/diamond/" />
+        <folder expanded="1" path="animation-folder/diamond2/" />
+        <folder expanded="1" path="animation-folder/diamond3/" />
+        <folder expanded="1" path="animation-folder/heart_PNG/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/window/" />
+        <folder expanded="1" path="animation-folder/complete/" />
+        <folder expanded="1" path="animation-folder/Restart/" />
+        <folder expanded="1" path="animation-folder/door/" />
+        <folder expanded="1" path="animation-folder/key/" />
+        <folder expanded="1" path="animation-folder/keyHUD/" />
+        <folder expanded="1" path="animation-folder/door2/" />
+        <folder expanded="1" path="animation-folder/key2/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/jumpbutton/" />
+        <folder expanded="1" path="animation-folder/bckground4/" />
+        <folder expanded="1" path="animation-folder/button/" />
+        <folder expanded="1" path="animation-folder/NextLevel/" />
+        <folder expanded="1" path="animation-folder/btnMusic/" />
+        <folder expanded="1" path="animation-folder/btnSound/" />
+        <folder expanded="1" path="animation-folder/bckgroundmenu/" />
+        <folder expanded="1" path="animation-folder/lw/" />
+        <folder expanded="1" path="animation-folder/btnPlay/" />
+        <folder expanded="1" path="animation-folder/window2/" />
+        <folder expanded="1" path="animation-folder/levelselection/" />
+        <folder expanded="1" path="animation-folder/Button_/" />
+        <folder expanded="1" path="animation-folder/home/" />
+        <folder expanded="1" path="animation-folder/moregames/" />
+        <folder expanded="1" path="animation-folder/facebook/" />
+        <folder expanded="1" path="animation-folder/texturebackgrounddarkspothd/" />
+        <folder expanded="1" path="animation-folder/enemy/" />
+        <folder expanded="1" path="animation-folder/Bullet/" />
+        <folder expanded="1" path="animation-folder/ladder/" />
+        <folder expanded="1" path="animation-folder/vertikal1/" />
+        <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/Sprite6/" />
+        <folder expanded="1" path="animation-folder/Sprite7/" />
+        <folder expanded="1" path="animation-folder/Sprite8/" />
+        <folder expanded="1" path="animation-folder/horizontal1/" />
+        <folder expanded="1" path="animation-folder/enemy2/" />
+        <folder expanded="1" path="animation-folder/gr1/" />
+        <folder expanded="1" path="animation-folder/gr2/" />
+        <folder expanded="1" path="animation-folder/gr3/" />
+        <folder expanded="1" path="animation-folder/gr4/" />
+        <folder expanded="1" path="animation-folder/gr5/" />
+        <folder expanded="1" path="animation-folder/Sprite4/" />
+        <folder expanded="1" path="animation-folder/shoot_button/" />
+        <folder expanded="1" path="animation-folder/full_screen/" />
+    </folders-expanded>
+</c2uistate>
